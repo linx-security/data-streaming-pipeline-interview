@@ -1,4 +1,4 @@
-# Senior Team Lead Coding Test
+# Data Streaming Pipeline Coding Test
 
 **Duration: 60 minutes**
 **Focus: Real-time Stream Processing, Async Programming, Error Handling**
