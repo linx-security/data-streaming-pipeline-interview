@@ -1,4 +1,4 @@
-# Senior Team Lead Coding Test
+# Data Streaming Pipeline Coding Test
 
 **Duration: 60 minutes**
 **Focus: Real-time Stream Processing, Async Programming, Error Handling**
@@ -59,6 +59,7 @@ Data Streams → [Your StreamProcessor] → Downstream API
 ```
 
 **Pipeline Flow:**
+
 1. Consume data from the provided `data_stream`
 2. Transform each `StreamData` using `transform_data()`
 3. Send `ProcessedRecord` to `downstream_api.send_data()`
