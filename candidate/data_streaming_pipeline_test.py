@@ -25,15 +25,17 @@ import asyncio
 from typing import AsyncGenerator
 
 # Import the test framework - DO NOT MODIFY THIS IMPORT
-from data_streaming_pipeline_interview.candidate.streaming_test_framework import (
+from data_streaming_pipeline_interview.framework.streaming_test_framework import (
     DownstreamAPI,
     PipelineMetrics,
-    ProcessedRecord,
     StreamData,
     print_test_footer,
     print_test_header,
     run_stream_test,
 )
+
+# Import your data models - YOU CAN MODIFY THIS
+from data_streaming_pipeline_interview.candidate.models import ProcessedRecord
 
 # =============================================================================
 # YOUR IMPLEMENTATION

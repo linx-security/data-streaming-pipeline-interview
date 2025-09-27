@@ -1,0 +1,11 @@
+# Requirements for Data Streaming Pipeline Test
+# Python 3.8+ required
+
+# Core dependencies
+pydantic>=1.8.0,<3.0.0
+
+# Development/Testing (optional)
+pytest>=6.0.0
+pytest-asyncio>=0.18.0
+
+# Note: All other dependencies (asyncio, collections, etc.) are built-in to Python
